@@ -1,4 +1,4 @@
-### ** database uml
+### - database uml
 
 <br>
 
