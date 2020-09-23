@@ -1,0 +1,11 @@
+//특정멤버의 체온 데이터 추출
+SELECT * FROM TEMPERATURE WHERE MEMBER_IDX=#{member_idx}
+
+
+//특정멤버의 기본정보 추출 
+SELECT * FROM MEMBER WHERE MEMBER_IDX=#{member_idx}
+
+
+//모든 멤버의 정보 및 체온 데이터 추출
+SELECT * FROM MEMBER 
+SELECT * FROM TEMPERATURE
